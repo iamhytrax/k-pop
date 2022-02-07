@@ -135,16 +135,16 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
        //card 5
           Card(
         child: ListTile(
-          tileColor: Colors.amber,
-          leading: const Image(image: NetworkImage("https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/351a58120116611.60abaf9a9821f.jpg")),
-          title: const Text('BUTTER'),
+          tileColor: Colors.orange,
+          leading: const Image(image: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDuK1sfJ561ssIELJnmCi3hQOFcJeO7EP-pQ&usqp=CAU   ")),
+          title: const Text('PERMISSION TO DANCE'),
           dense: false,
           
           onTap: () {
-           audioManagerInstance.start("https://mp3.filmisongs.com/go.php?id=Dynamite%20-%20BTS.mp3", "dynamite ",
+           audioManagerInstance.start("https://mp3tag.lite9ja.com.ng/contents/2021/07/BTS-Permission-to-Dance-Litenaija.com-o0.mp3  ",  " PERMISSION TO TAX ",
                   desc: "bts",
                        auto: true,
-                  cover: "https://trendybeatz.com/images/BTS-Butter-Art.jpg")
+                  cover: "   https://www.lite9ja.com.ng/wp-content/uploads/2021/07/BTS-Permission-to-Dance.jpeg ")
                    .then((err) {
                       // ignore: avoid_print
                       print(err);
