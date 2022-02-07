@@ -141,7 +141,7 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
           dense: false,
           
           onTap: () {
-           audioManagerInstance.start("https://mp3tag.lite9ja.com.ng/contents/2021/07/BTS-Permission-to-Dance-Litenaija.com-o0.mp3  ",  " PERMISSION TO TAX ",
+           audioManagerInstance.start("https://mp3tag.lite9ja.com.ng/contents/2021/07/BTS-Permission-to-Dance-Litenaija.com-o0.mp3  ",  " PERMISSION TO DANCE ",
                   desc: "bts",
                        auto: true,
                   cover: "   https://www.lite9ja.com.ng/wp-content/uploads/2021/07/BTS-Permission-to-Dance.jpeg ")
