@@ -64,37 +64,7 @@ floatingActionButton: FloatingActionButton(
                         fontSize: 40,
                         fontWeight: FontWeight.bold),
                   )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    " ",                           //**************************************************************ADD INFO BRO******************* */
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    "   ",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    "",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    "",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    "",
-                    style: TextStyle(color: Colors.white),
-                  )),
-
+          
               CarouselSlider(items: [
 
                 Container(                                                /*******************************add images bro********* */

@@ -67,37 +67,7 @@ class _EXOinfoState extends State<EXOinfo> {
                         fontSize: 40,
                         fontWeight: FontWeight.bold),
                   )),
-                   Title(
-                  color: Colors.white,
-                  child: const Text(
-                   "",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    "   ",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                   "",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    "",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                   "",
-                    style: TextStyle(color: Colors.white),
-                  )),
-
+              
               CarouselSlider(items: [
 
                 Container(

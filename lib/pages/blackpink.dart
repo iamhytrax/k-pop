@@ -71,36 +71,7 @@ class _BPinfoState extends State<BPinfo> {
                         fontSize: 40,
                         fontWeight: FontWeight.bold),
                   )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    "",                                          /********************************ADD SOME INFO ******************* */
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    "   ",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    " ",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    "",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    "",
-                    style: TextStyle(color: Colors.white),
-                  )),
+     
 
               CarouselSlider(items: [
 

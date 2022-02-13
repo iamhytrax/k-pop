@@ -65,37 +65,7 @@ class _KEP1ERinfoState extends State<KEP1ERinfo> {
                         fontSize: 40,
                         fontWeight: FontWeight.bold),
                   )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                   "",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    "   ",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                   "",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                    "",
-                    style: TextStyle(color: Colors.white),
-                  )),
-              Title(
-                  color: Colors.white,
-                  child: const Text(
-                   "",
-                    style: TextStyle(color: Colors.white),
-                  )),
-
+      
               CarouselSlider(items: [
                 
                 Container(
