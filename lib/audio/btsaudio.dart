@@ -76,7 +76,7 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
           dense: false,
           
           onTap: () {
-           audioManagerInstance.start("https://mp3.filmisongs.com/go.php?id=Dynamite%20-%20BTS.mp3", "dynamite ",
+           audioManagerInstance.start("https://mp3.filmisongs.com/go.php?id=Dynamite%20-%20BTS.mp3", "dynamite",
                   desc: "bts",
                        auto: true,
                   cover: "https://trendybeatz.com/images/BTS-Butter-Art.jpg")
@@ -133,39 +133,19 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
         ),
           ),
        //card 5
+       
           Card(
         child: ListTile(
-          tileColor: Colors.orange,
-          leading: const Image(image: NetworkImage("https://cdn.shopify.com/s/files/1/0545/7854/4823/files/10034bf13a2c4d2ca1cd41c7079abbff.1000x1000x1_2048x2048.png?v=1628784726  ")),
-          title: const Text('PERMISSION TO DANCE'),
+          tileColor: const Color.fromARGB(255, 0, 225, 255),
+          leading: const Image(image: NetworkImage("https://i1.sndcdn.com/artworks-FSEVgOqZZqXMTSiQ-rQPagQ-t500x500.jpg")),
+          title: const Text('Life Goes On'),
           dense: false,
           
           onTap: () {
-           audioManagerInstance.start("https://mp3tag.lite9ja.com.ng/contents/2021/07/BTS-Permission-to-Dance-Litenaija.com-o0.mp3  ",  " PERMISSION TO DANCE ",
+           audioManagerInstance.start("https://cdn.trendybeatz.com/audio/BTS-Life-Goes-On-(TrendyBeatz.com).mp3", " Life Goes On ",
                   desc: "bts",
                        auto: true,
-                  cover: "   https://www.lite9ja.com.ng/wp-content/uploads/2021/07/BTS-Permission-to-Dance.jpeg ")
-                   .then((err) {
-                      // ignore: avoid_print
-                      print(err);
-                       });
-          },
-           horizontalTitleGap: 100,
-        ),
-          ),
-       //card 6
-          Card(
-        child: ListTile(
-          tileColor: Colors.amber,
-          leading: const Image(image: NetworkImage("https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/351a58120116611.60abaf9a9821f.jpg")),
-          title: const Text('BUTTER'),
-          dense: false,
-          
-          onTap: () {
-           audioManagerInstance.start("https://mp3.filmisongs.com/go.php?id=Dynamite%20-%20BTS.mp3", "dynamite ",
-                  desc: "bts",
-                       auto: true,
-                  cover: "https://trendybeatz.com/images/BTS-Butter-Art.jpg")
+                  cover: "https://i1.sndcdn.com/artworks-FSEVgOqZZqXMTSiQ-rQPagQ-t500x500.jpg")
                    .then((err) {
                       // ignore: avoid_print
                       print(err);
