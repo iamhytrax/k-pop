@@ -227,30 +227,7 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
         ),
           ),
       
-      //card 11  
-          Card(
-        child: ListTile(
-          tileColor: Colors.amber,
-          leading: const Image(image: NetworkImage("https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/351a58120116611.60abaf9a9821f.jpg")),
-          title: const Text('BUTTER'),
-          dense: false,
-          
-          onTap: () {
-           audioManagerInstance.start("https://mp3.filmisongs.com/go.php?id=Dynamite%20-%20BTS.mp3", "dynamite ",
-                  desc: "bts",
-                       auto: true,
-                  cover: "https://trendybeatz.com/images/BTS-Butter-Art.jpg")
-                   .then((err) {
-                      // ignore: avoid_print
-                      print(err);
-                       });
-          },
-           horizontalTitleGap: 100,
-        ),
-          ),
-
-
-
+    
        
       
       ],

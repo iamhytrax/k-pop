@@ -21,8 +21,7 @@ class MyApp extends StatelessWidget {
       title: "my app",
       debugShowCheckedModeBanner: false,
     home: CustomCarouselFB2(),
-
-   
+    
     );
   }
 }
