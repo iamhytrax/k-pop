@@ -1,6 +1,6 @@
 # K-pop♥
 
-A -pop application where you will find all the songs of a perticular kpop band...
+A -pop application where you will findsongs of a perticular kpop band...
 
 ##ABOUT APPLICATION##
 
