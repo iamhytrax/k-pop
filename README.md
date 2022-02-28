@@ -1,7 +1,7 @@
 # K-pop♥
 
 
-A -pop application where you will findsongs of a perticular kpop band...
+k-POP APPLICATION FOR K-POP FANS♥
 
 # ABOUT APPLICATION
 
