@@ -44,7 +44,7 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
       
       
         children:  <Widget>[
-      
+      //1
         Card(
       child: ListTile(
         tileColor: Colors.amber,
@@ -67,7 +67,7 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
          horizontalTitleGap: 100,
       ),
         ),
-         //card2
+   //2
         Card(
       child: ListTile(
         tileColor: Colors.white,
@@ -89,7 +89,7 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
       ),
         ),
         
-     //card3
+     //3
         Card(
       child: ListTile(
         tileColor: Colors.pink.shade300,
@@ -111,7 +111,7 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
       ),
         ),
      
-     //card 4
+   //4
         Card(
       child: ListTile(
         tileColor: Colors.black,
@@ -133,8 +133,8 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
          horizontalTitleGap: 60,
       ),
         ),
-     //card 5
-     
+   
+     //5
         Card(
       child: ListTile(
         tileColor: const Color.fromARGB(255, 181, 233, 240),
@@ -156,7 +156,7 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
       ),
         ),
      
-       //card 7
+       //6
           Card(
         child: ListTile(
           tileColor: Colors.white70,
@@ -178,7 +178,7 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
         ),
           ),
       
-
+//7
 
                 Card(
         child: ListTile(
@@ -201,6 +201,72 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
         ),
           ),
 
+
+//8
+   //             Card(
+   //    child: ListTile(
+   //      tileColor: Colors.black,
+   //      leading: const Image(image: NetworkImage("")),
+   //      title: const Text('BLACK SWAN',style: TextStyle(color: Colors.white)),
+   //      dense: false,
+   //      
+   //      onTap: () {
+   //       audioManagerInstance.start("", "BLACK SWAN",
+   //              desc: "bts",
+   //                   auto: true,
+   //              cover: "")
+   //               .then((err) {
+   //                  // ignore: avoid_print
+   //                  print(err);
+   //                   });
+   //      },
+   //       horizontalTitleGap: 100,
+   //    ),
+   //      ),
+
+
+         //             Card(
+   //    child: ListTile(
+   //      tileColor: Colors.black,
+   //      leading: const Image(image: NetworkImage("")),
+   //      title: const Text('BLACK SWAN',style: TextStyle(color: Colors.white)),
+   //      dense: false,
+   //      
+   //      onTap: () {
+   //       audioManagerInstance.start("", "BLACK SWAN",
+   //              desc: "bts",
+   //                   auto: true,
+   //              cover: "")
+   //               .then((err) {
+   //                  // ignore: avoid_print
+   //                  print(err);
+   //                   });
+   //      },
+   //       horizontalTitleGap: 100,
+   //    ),
+   //      ),
+
+
+         //             Card(
+   //    child: ListTile(
+   //      tileColor: Colors.black,
+   //      leading: const Image(image: NetworkImage("")),
+   //      title: const Text('BLACK SWAN',style: TextStyle(color: Colors.white)),
+   //      dense: false,
+   //      
+   //      onTap: () {
+   //       audioManagerInstance.start("", "BLACK SWAN",
+   //              desc: "bts",
+   //                   auto: true,
+   //              cover: "")
+   //               .then((err) {
+   //                  // ignore: avoid_print
+   //                  print(err);
+   //                   });
+   //      },
+   //       horizontalTitleGap: 100,
+   //    ),
+   //      ),
 
 
 

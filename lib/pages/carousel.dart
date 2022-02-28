@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kpop/pages/about.dart';
 import 'package:kpop/pages/blackpink.dart';
 import 'package:kpop/pages/bts.dart';
 import 'package:kpop/pages/exo.dart';
@@ -106,6 +107,15 @@ class _CustomCarouselFB2State extends State<CustomCarouselFB2> {
         subtitle: "Skz",
         onPressed: () {Navigator.push(
               context, MaterialPageRoute(builder: (context) => const SKZinfo()));}),
+
+
+    CardFb1(
+        text: "ABOUT",
+        imageUrl:
+            "https://media.istockphoto.com/vectors/finger-heart-line-color-icon-music-record-kpop-concept-korean-culture-vector-id1178049213?k=20&m=1178049213&s=612x612&w=0&h=14xNgRfSxqTgc-18_r_CMjWw2QVfL80sHw-lJlB_m4k=",
+        subtitle: "ABOUT",
+        onPressed: () {Navigator.push(
+              context, MaterialPageRoute(builder: (context) => const ABOUTinfo()));}),
   ];
   final double carouselItemMargin = 16;
 
