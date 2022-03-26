@@ -94,11 +94,11 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
       child: ListTile(
         tileColor: Colors.pink.shade300,
         leading: const Image(image: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOrIdCMk05_nYGeRBdx09Jl1kMuP95ja65RQ&usqp=CAU")),
-        title: const Text('Boy with luv'),
+        title: const Text('Boy In luv'),
         dense: false,
         
         onTap: () {
-         audioManagerInstance.start("https://mp3.filmisongs.com/go.php?id=BTS%20-%20Boy%20With%20Luv%20Mp3%20Song%20Download.mp3", "Boy with luv ",
+         audioManagerInstance.start("https://mp3.filmisongs.com/go.php?id=BTS%20-%20Boy%20With%20Luv%20Mp3%20Song%20Download.mp3", "Boy in luv ",
                 desc: "bts",
                      auto: true,
                 cover: "https://i1.sndcdn.com/artworks-cJhzdvRT8aUQ3fY1-yglEKg-t500x500.jpg")
@@ -272,10 +272,51 @@ class _BTSAUDIOState extends State<BTSAUDIO> {
 
      
     
-       
+
+   
       
       ],
           ),
       );
+  }
+}
+
+
+class FacebookBtn1 extends StatelessWidget {
+final Function() onPressed;
+  const FacebookBtn1({
+required this.onPressed,
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        height: 54,
+        margin: const EdgeInsets.all(15),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(15),
+          color: Colors.white,
+        ),
+        child: TextButton(
+          style: ButtonStyle(
+            shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)))
+          ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.network(
+                "https://firebasestorage.googleapis.com/v0/b/flutterbricks-public.appspot.com/o/crypto%2Ffacebook%20(2).png?alt=media&token=9c275bf0-2bf7-498a-9405-9ae99df8d8f2",
+                width: 20,
+              ),
+              const SizedBox(
+                width: 10,
+              ),
+              const Text("Facebook",
+                  style: TextStyle(color: Colors.black, fontSize: 16)),
+            ],
+          ),
+          onPressed: onPressed,
+        ));
   }
 }

@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:kpop/audio/btsaudio.dart';
 
 
+
 class BTSinfo extends StatefulWidget {
   const BTSinfo({Key? key}) : super(key: key);
 
@@ -58,7 +59,7 @@ class _BTSinfoState extends State<BTSinfo> {
               Image.asset("assets/images/bts.jpg"),
               const Padding(
                   padding: EdgeInsets.all(30.0),
-                  child: Text(
+                  child:  Text(
                     "BTS",
                     style: TextStyle(
                         color: Colors.white,

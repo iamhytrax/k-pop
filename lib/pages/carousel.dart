@@ -176,8 +176,8 @@ class CardFb1 extends StatelessWidget { final String text;
           borderRadius: BorderRadius.circular(25.5),
           boxShadow: [
             BoxShadow(
-                offset: const Offset(10, 20),
-                blurRadius: 10,
+                offset: const Offset(10,20),
+                blurRadius: 15,
                 spreadRadius: 0,
                 color: Colors.white.withOpacity(0.3)),
           ],
