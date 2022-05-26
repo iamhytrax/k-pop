@@ -101,7 +101,8 @@ class _ABOUTinfoState extends State<ABOUTinfo> {
               //CarouselSlider(
               //  items: [
               //    GestureDetector(
-              //     child: (Container(
+              //     child: (
+              //    Container(
               //       margin: const EdgeInsets.all(6.0),
               //       decoration: BoxDecoration(
               //         borderRadius: BorderRadius.circular(8.0),
